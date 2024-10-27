@@ -78,13 +78,12 @@ nav > h3 {
   background-repeat: no-repeat;
   background-position: center;
 }
-/* *****************************main**************************** */
+/* *****************************main******************************************* */
+/* sponssor part----------------> */
 .sponssor {
-  /* background-color: #9b7ebd; */
   border-top: 1px solid #9d9e9d;
   border-bottom: 1px solid #9d9e9d;
   margin: 100px 150px;
-
   padding-top: 15px;
   padding-bottom: 15px;
   display: flex;
@@ -92,7 +91,41 @@ nav > h3 {
   align-items: center;
 }
 
-/* ***************responsive for device ********************************************** */
+/* collection section------------------> */
+.collection {
+  /* background-color: aquamarine; */
+  margin: 0 150px;
+  padding: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
+}
+.collection-section > h2 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 2em;
+  font-size: 2em;
+}
+.collection-cards h2 {
+  margin-bottom: 8px;
+}
+.collection-cards h3 {
+  color: #9d9e9d;
+  font-size: 21px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.cards-des {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.collection-cards {
+  padding: 1.5em;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* *********************************responsive for device ********************************************** */
 
 /* ---------------------------small device---------------------------------------- */
 
