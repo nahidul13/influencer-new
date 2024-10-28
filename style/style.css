@@ -92,9 +92,12 @@ nav > h3 {
 }
 
 /* collection section------------------> */
+.collection-section {
+  margin: 0 150px;
+}
 .collection {
   /* background-color: aquamarine; */
-  margin: 0 150px;
+
   padding: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -104,8 +107,9 @@ nav > h3 {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   font-size: 2em;
+  margin-top: 2em;
 }
 .collection-cards h2 {
   margin-bottom: 8px;
@@ -125,6 +129,14 @@ nav > h3 {
   margin: 0 auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.see-more {
+  width: 99%;
+  color: #9b7ebd;
+  font-size: 1.1em;
+  margin-top: 1.2em;
+  text-align: right;
+}
+
 /* *********************************responsive for device ********************************************** */
 
 /* ---------------------------small device---------------------------------------- */
@@ -136,6 +148,7 @@ nav > h3 {
     margin-left: 30%;
     margin-right: 30%;
   }
+
   /* banner part ----------- */
   .banner {
     flex-direction: column-reverse;
@@ -181,6 +194,7 @@ nav > h3 {
     width: 100%;
     /* background-color: blueviolet; */
   }
+
   /* main---  ----------*/
   /* .sponssor */
   .sponssor {
@@ -192,6 +206,20 @@ nav > h3 {
     column-gap: 20px;
     border: none;
     row-gap: 20px;
+  }
+
+  /* colection part--------->  */
+  .collection-section {
+    /* width: 100%; */
+    margin: auto;
+  }
+  .collection {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .see-more {
+    width: 93%;
   }
 }
 
